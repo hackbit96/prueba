@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /empresa
+spring:
+  application:
+    name: empresa
+  main:
+    banner-mode: "off"
+  jmx:
+    enabled: true
+  cloud:
+    config:
+       enabled: false
